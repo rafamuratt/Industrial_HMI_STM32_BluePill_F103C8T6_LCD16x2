@@ -20,10 +20,10 @@
  https://www.paypal.com/donate/?hosted_button_id=8S8BJ9TT368VN
 
  * NOTES:
- #define VDC_LEVEL is required fine adjustment to match the maximum power supply (VDC) to able the analog input a correct proporcional read to print in the LCD
- here 3266 = 3.266V (Fine tunning for power supply)
+ #define VDC_LEVEL: fine adjustment to match the maximum power supply value (VDC) in order to make a correct proporcional read (analog input). 
+ Here 3266 = 3.266V (Fine tunning for power supply, measured with a multimeter)
 
- #define MENU_SIZE set the number of menu items (in this project, 5)
+ #define MENU_SIZE: set the number of menu items (in this project, 5 items).
 
  * CORE FEATURES:
  * 1. HIGH-SPEED PWM (PA8): 20kHz switching frequency for silent motor control.
