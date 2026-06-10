@@ -58,8 +58,8 @@ Button Mapping
 
 ## 📂 Project Structure
 ```
-/Source           — Main .ino source file with full comments
-/Screenshots      — Screenshots and hardware photos
+/Source                — Main .ino source file with full comments
+/Photos & Screenshots  — Screenshots and hardware photos
 ```
 
 ---
