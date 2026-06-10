@@ -1,3 +1,6 @@
+[![License: MT-SAL v1.0](https://img.shields.io/badge/License-MT--SAL%20v1.0-blue)](https://github.com/rafamuratt/Industrial_HMI_STM32_BluePill_F103C8T6_LCD16x2?tab=License-1-ov-file)
+
+
 # Industrial_HMI_STM32_BluePill_F103C8T6_LCD16x2  
 Developed entirely in Arduino IDE (STM32duino core) using C++, with one external LCD library (see note below). 
 > The project is fully optimized for the STM32F103C8T6 (BluePill), keeping a lean and maintainable structure with room for future expansion. This is a functional industrial-style HMI example combining PWM motor control, pseudo analog output, analog input reading, EEPROM parameter saving, and emergency stop logic — designed as a reusable template for future embedded projects.  
