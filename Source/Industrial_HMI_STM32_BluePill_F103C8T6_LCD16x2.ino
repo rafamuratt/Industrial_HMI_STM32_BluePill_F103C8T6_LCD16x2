@@ -14,10 +14,16 @@
  This project is licensed under the Murat-Tech Source Available License v1.0. 
  Free for personal and educational use with attribution.
  Commercial use requires written authorization — contact info@murat-tech.eu
- #############################################################################https://github.com/rafamuratt/Industrial-Sorter-PIC-LCD-EEPROM?tab=License-1-ov-file
+ https://github.com/rafamuratt/Industrial_HMI_STM32_BluePill_F103C8T6_LCD16x2?tab=License-1-ov-file
  
  If this project is helpfull for your application, please consider to support:
  https://www.paypal.com/donate/?hosted_button_id=8S8BJ9TT368VN
+
+ * NOTES:
+ #define VDC_LEVEL is required fine adjustment to match the maximum power supply (VDC) to able the analog input a correct proporcional read to print in the LCD
+ here 3266 = 3.266V (Fine tunning for power supply)
+
+ #define MENU_SIZE set the number of menu items (in this project, 5)
 
  * CORE FEATURES:
  * 1. HIGH-SPEED PWM (PA8): 20kHz switching frequency for silent motor control.
@@ -27,7 +33,7 @@
  * 3. DUAL-MODE UI (NAV_ADJ button):
  *    - Short Press: Step-by-step parameter increment/decrement.
  *    - 2s Long Press: Flips adjustment direction (+/-) and enters high-speed auto-scroll mode.
- * 4. AUTO SAVE THE SETTINGS IN THE EEPROM: Only after press the button SEL_ESC.
+ * 4. SAVE THE SETTINGS IN THE EEPROM: Only after press the button SEL_ESC.
  * 5. ATOMIC EEPROM SAVING: Interrupt-safe Flash emulation. Before writing,
  *    all interrupts are suspended via noInterrupts() — pausing TIM2 — to
  *    prevent CPU desync or mid-write corruption. Interrupts are restored
