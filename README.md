@@ -23,10 +23,15 @@ This project implements a generic industrial HMI control interface, featuring:
 
 ---
 
-## ⚠️ External Library Required
+## 📦 Dependencies  
 
-The LCD interface uses a custom 4-bit library (MT_lcd_16x2_4bits_STM32.h) developed separately and available here:<br>
-👉 https://github.com/rafamuratt/HD44780_4bit_STM32  
+⚠️ External Library Required  
+The LCD interface uses a custom 4-bit library (MT_lcd_16x2_4bits_STM32.h) developed separately and available here:
+
+| Library                 | Repository                                                                                           |
+|-------------------------|------------------------------------------------------------------------------------------------------|
+| MT_lcd_16x2_4bits_STM32 | [https://github.com/rafamuratt/HD44780_4bit_STM32](https://github.com/rafamuratt/HD44780_4bit_STM32) |
+ 
 Download and place it in your Arduino libraries folder before compiling.
 
 ---
@@ -44,7 +49,7 @@ Download and place it in your Arduino libraries folder before compiling.
 * **Onboard LED: PC13** — reverse logic (HIGH = OFF)
 
 Button Mapping
-|  Define | Pin |                      Function                       |
+| Define  | Pin | Function                                            |
 |---------|-----|-----------------------------------------------------|
 | SEL_ESC | PA0 | Confirm, enter sub-menu, save settings, ACK, escape |
 | NAV_ADJ | PA2 | Scroll menu, adjust value, toggle Run/Stop          |
