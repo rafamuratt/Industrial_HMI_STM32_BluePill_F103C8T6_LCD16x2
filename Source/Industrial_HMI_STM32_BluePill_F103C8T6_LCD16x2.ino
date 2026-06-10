@@ -345,7 +345,7 @@ void menuPage(){
      if(inMenu && !subMenu){
           char text[][16] = { "RUN/STOP       ",                                              // Open text quantity (lines []) limited to 15 columns + NULL [16]
                               "RETURN         ",                                              // Not used the whole 16 coluns + NULL [17] because '>' occupies the column 1 and already
-                              "MIXER SPEED    ",                                              // start counting from column 2
+                              "MOTOR SPEED    ",                                              // start counting from column 2
                               "VOLTAGE LEVEL  ",                                      
                               "ABOUT          "};
           
