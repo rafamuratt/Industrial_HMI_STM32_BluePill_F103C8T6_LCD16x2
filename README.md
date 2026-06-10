@@ -75,8 +75,8 @@ Button Mapping
 **Parameter Mapping:** PWM duty = map(param1, 0, 255, 0, timerOverflow) — 0 to 100% output range.
 
 **NOTES:**
-> #define VDC_LEVEL: fine adjustment to match the maximum power supply value (VDC) in order to make a correct proporcional read (analog input).
- here 3266 = 3.266V (Fine tunning for power supply, measured with a multimeter)
+> #define VDC_LEVEL: fine adjustment to match the maximum power supply value (VDC) in order to make a correct proporcional read (analog input).  
+Here 3266 = 3.266V (Fine tunning for power supply, measured with a multimeter)
 
 > #define MENU_SIZE: set the number of menu items (in this project, 5 items).
 
